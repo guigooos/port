@@ -1,11 +1,11 @@
 :root{
-    --background: #ffffff;
-    --foreground: #6e07f3;
-    --primary: #141c3a;
-    --primary-light: #cdd3eb;
+    --background: #fffef4;
+    --foreground: #536651;
+    --primary: #143a17;
+    --primary-light: #cdebd5;
     --primary-foreground: #fff;
-    --secondary: #5be8b9;
-    --secondary-foreground: #141c3a;
+    --secondary: #7c9c6f;
+    --secondary-foreground: #143a17;
 }
 
 *{
@@ -38,6 +38,9 @@ html{
 .button:hover{
     background-color: var(--foreground);
     color: var(--primary-foreground);
+}
+body{
+    background-color: #fcfcfa;
 }
 
 
